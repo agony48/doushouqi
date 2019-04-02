@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTheme">#9bc53d</color>
+    <!-- 主页菜单选择，未选中状态字体颜色 -->
+    <color name="colorPass">#929292</color>
+    <color name="colorPrimary">#9bc53d</color>
+    <color name="colorPrimaryDark">#9bc53d</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_white">#ffffff</color>
+    <color name="color_white_bg">#fafafa</color>
+    <color name="color_bg">#f7f7f7</color>
+    <color name="color_menu_bg">#f0f0f0</color>
+    <color name="color_blue">#9bc53d</color>
+    <color name="split_line_color">#cccccc</color>
+    <color name="color_red">#9bc53d</color>
+    <color name="color_black">#333333</color>
+    <color name="color_gray">#666666</color>
+    <color name="color_gray_nav">#929292</color>
+    <color name="color_sub_gray">#999999</color>
+    <color name="color_yellow">#ffab26</color>
+    <color name="color_orange">#ff6537</color>
+    <color name="color_purple">#9421D0</color>
+
+    <color name="color_green">#9bc53d</color>
+    <color name="color_cityvillage_red">#d81e06</color>
+
+    <color name="alpha_gray">#CC646464</color>
+
+    <color name="bettery_textColor_red">#FFFE0000</color>
+    <color name="bettery_textColor_blue">#FF4dabf5</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <!-- 环信 SDK -->
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="btn_login_normal">#00272e</color>
+    <color name="btn_login_pressed">#303744</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#2dafa3</color>
+    <color name="btn_register_pressed">#4ebcd3</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#1Affffff</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="divider_list">#cccccc</color>
+    <color name="top_bar_normal_bg">#1e90ff</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="gray_normal">#666667</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+
+    <color name="voip_interface_text_color">#bababa</color>
+    <color name="black_deep">#FF000000</color>
+    <color name="text_selected_color">#ED5485</color>
+
+
+    <color name="province_line_border">#C7C7C7</color>
+
+    <color name="growth_leve_1">#A5A5A5</color>
+    <color name="growth_leve_2">#EFEFEF</color>
+    <color name="growth_leve_3">#FDFDFE</color>
+
+
+
+
+
+
+
+    <color name="crowd_state_1">#000000</color>
+    <color name="crowd_state_2">#ff0000</color>
+    <color name="crowd_state_3">#3cb1f7</color>
+
+
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/dd"
+    android:orientation="vertical">
+    <com.color_analysis_in_xinjiangtimes.view.FlyBanner
+        android:id="@+id/img_banner"
+        android:layout_width="match_parent"
+        android:layout_height="148dp" />
+    <RelativeLayout
+        android:background="@mipmap/new_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <com.color_analysis_in_xinjiangtimes.cirlview.CircleLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:padding="20dp"
+        >
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/classly_1"
+            android:background="@android:color/transparent"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:text="勇士" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/classly_2"
+            android:background="@android:color/transparent"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:text="骑士" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/classly_3"
+            android:background="@android:color/transparent"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:text="火箭" />
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/classly_4"
+            android:background="@android:color/transparent"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:text="湖人" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/classly_6"
+            android:background="@android:color/transparent"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:text="皇马" />
+
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/classly_7"
+            android:background="@android:color/transparent"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:text="巴萨" />
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/classly_8"
+            android:background="@android:color/transparent"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:text="曼联" />
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/classly_9"
+            android:background="@android:color/transparent"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:text="曼城" />
+    </com.color_analysis_in_xinjiangtimes.cirlview.CircleLayout>
+    </RelativeLayout>
+    <TextView
+        android:visibility="gone"
+        android:text="\t\t球探比分提供足球信息,通过足球情报市场为您提供最新的足球新闻、足球资讯、足球数据分析等,了解更多足球新闻资讯可关注球探比分。"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:textColor="@color/color_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

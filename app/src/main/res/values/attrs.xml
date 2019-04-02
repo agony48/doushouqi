@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_tabs_array">
+        <item>首页</item>
+        <!--<item>分类</item>-->
+        <!--<item>体验</item>-->
+        <!--<item>我的</item>-->
+        <!--<item>个人</item>-->
+    </string-array>
+
+    <string-array name="home_navi_array">
+        <item>斗地主</item>
+        <item>麻将</item>
+        <item>纸牌</item>
+        <item>象棋</item>
+    </string-array>
+    <string-array name="home_navi_array2">
+        <item>卫兰</item>
+        <item>萨拉</item>
+        <item>威记</item>
+        <item>拱桥</item>
+        <!--<item>排列5</item>-->
+        <!--<item>七星彩</item>-->
+        <!--<item>七乐彩</item>-->
+        <!--<item>任9</item>-->
+        <!--<item>6场半全场</item>-->
+        <!--<item>4场进球彩</item>-->
+        <!--<item>竞彩足球</item>-->
+        <!--<item>竞彩篮球</item>-->
+    </string-array>
+
+    <string-array name="cityvillage_array">
+        <item>农业产品</item>
+        <item>乡村旅游</item>
+        <item>农村金融</item>
+        <item>农业项目</item>
+    </string-array>
+    <string-array name="me_navi_array">
+        <item>我的收藏</item>
+        <item>我的众筹</item>
+        <item>我的团购</item>
+        <item>我的报名</item>
+        <item>邀请码</item>
+        <item>浏览记录</item>
+    </string-array>
+
+    <string-array name="order_tab_array">
+        <item>全部</item>
+        <item>待付款</item>
+        <item>待发货</item>
+        <item>待收货</item>
+        <item>待评价</item>
+        <item>已完成</item>
+    </string-array>
+    <string-array name="crowd_order_tab_array">
+        <item>全部</item>
+        <item>众筹中</item>
+        <item>已完成</item>
+        <item>已失败</item>
+    </string-array>
+    <string-array name="buiness_order_tab_array">
+        <item>全部</item>
+        <item>待使用</item>
+        <item>已使用</item>
+        <item>已失效</item>
+        <item>退款</item>
+    </string-array>
+
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="Indicator">
+        <attr name="count" format="integer" />
+        <attr name="Indicator_color" format="integer" />
+        <attr name="name" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CategoryTabStrip">
+        <attr name="defaultCount" format="integer" />
+        <attr name="defaultSelectTextColor" format="integer" />
+        <attr name="defaultUnselectTextColor" format="integer" />
+        <attr name="defaultSelectBackgroundColor" format="integer" />
+        <attr name="defaultUnselectBackgroundColor" format="integer" />
+        <attr name="showDivider" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CountTimerView">
+        <attr name="textColor" format="integer" />
+        <attr name="showBackground" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FlyBanner">
+        <attr name="points_visibility" format="boolean" />
+        <attr name="points_position" format="enum">
+            <enum name="CENTER" value="0" />
+            <enum name="LEFT" value="1" />
+            <enum name="RIGHT" value="2" />
+        </attr>
+        <attr name="points_container_background" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="PasswordCodeView">
+        <attr name="isPassword" format="boolean"/>
+    </declare-styleable>
+
+    <string-array name="business_array_first">
+        <item>全部</item>
+        <item>餐饮</item>
+        <item>美发</item>
+        <item>娱乐</item>
+        <item>酒店</item>
+        <item>花店</item>
+        <item>甜品</item>
+        <item>摄影</item>
+        <item>生活服务</item>
+        <item>更多</item>
+    </string-array>
+
+    <string-array name="collection_array">
+        <item>商品</item>
+        <item>店铺</item>
+        <item>团购</item>
+        <item>产品众筹</item>
+        <item>项目众筹</item>
+    </string-array>
+
+
+    <declare-styleable name="WarpLinearLayout">
+        <attr name="grivate" format="enum"><!--对齐方式 !-->
+            <enum name="right" value="0"></enum>
+            <enum name="left" value="1"></enum>
+            <enum name="center" value="2"></enum>
+        </attr>
+        <attr name="horizontal_Space" format="dimension"></attr>
+        <attr name="vertical_Space" format="dimension"></attr>
+        <attr name="isFull" format="boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="MCircle">
+        <attr name="FirstR" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textsColor" format="color"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="rectColor" format="color"/>
+        <attr name="unitR" format="dimension"/>
+        <attr name="attrs" format="string"/>
+        <attr name="datas" format="string"/>
+    </declare-styleable>
+</resources>

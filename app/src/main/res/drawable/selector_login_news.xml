@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下状态 -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid
+                android:color="@color/color_red" />
+            <corners android:radius="20dp" />
+            <padding
+                android:bottom="10dp"
+                android:left="30dp"
+                android:right="30dp"
+                android:top="10dp" />
+        </shape>
+    </item>
+    <!-- 普通状态 -->
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <solid
+                android:color="@color/color_red" />
+            <!-- 颜色渐变 -->
+            <!--<gradient-->
+                <!--android:endColor="#ffff1dae"-->
+                <!--android:startColor="#ffff79ff"-->
+                <!--android:angle="270"/>-->
+            <padding
+                android:bottom="10dp"
+                android:left="30dp"
+                android:right="30dp"
+                android:top="10dp" />
+        </shape>
+    </item>
+    <!-- 普通状态 -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <solid
+                android:color="@color/color_red" />
+            <!-- 颜色渐变 -->
+            <!--<gradient-->
+                <!--android:endColor="#ffff1dae"-->
+                <!--android:startColor="#ffff79ff"-->
+                <!--android:type="linear" />-->
+            <padding
+                android:bottom="10dp"
+                android:left="30dp"
+                android:right="30dp"
+                android:top="10dp" />
+        </shape>
+    </item>
+
+</selector>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_layout_text" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/split_line_color" />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/setting_user_manager_str"
+                android:textColor="@color/color_sub_gray"
+                android:textSize="12sp" />
+
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/split_line_color" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/data_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white"
+                android:drawableRight="@mipmap/more_icon"
+                android:padding="15dp"
+                android:text="@string/setting_user_data_str"
+                android:textColor="@color/color_black"
+                android:textSize="15sp" />
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:background="@color/split_line_color" />
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:id="@+id/account_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="账号安全"
+                    android:textColor="@color/color_black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/more_icon"
+                    android:padding="15dp"
+                    android:text="密码/支付管理"
+                    android:textColor="@color/color_sub_gray"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:background="@color/split_line_color" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/address_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white"
+                android:drawableRight="@mipmap/more_icon"
+                android:padding="15dp"
+                android:text="@string/setting_user_address_str"
+                android:textColor="@color/color_black"
+                android:textSize="14sp" />
+
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/split_line_color" />
+
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/setting_app_setting_str"
+                android:textColor="@color/color_sub_gray"
+                android:textSize="12sp" />
+            <LinearLayout
+                android:background="@color/color_blue"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="206dp">
+                <ImageView
+                    android:layout_width="108dp"
+                    android:layout_height="108dp"
+                    android:src="@mipmap/ic_launcher"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/split_line_color" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="@string/setting_cach_str"
+                    android:textColor="@color/color_black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/cach_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/more_icon"
+                    android:padding="15dp"
+                    android:text="@string/setting_clear_cach_str"
+                    android:textColor="@color/color_sub_gray"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:background="@color/split_line_color" />
+
+            <RelativeLayout
+                android:id="@+id/version_lt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/setting_version_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/color_white"
+                    android:text="@string/setting_vertion_str"
+                    android:textColor="@color/color_black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/version_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/setting_version_tv"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/setting_version_tv"
+                    android:textColor="@color/color_sub_gray"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/local_verison_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/more_icon"
+                    android:textColor="@color/color_sub_gray"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:background="@color/split_line_color" />
+
+            <TextView
+                android:id="@+id/about_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white"
+                android:drawableRight="@mipmap/more_icon"
+                android:padding="15dp"
+                android:text="@string/setting_about_str"
+                android:textColor="@color/color_black"
+                android:textSize="15sp" />
+
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:background="@color/split_line_color" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/notification_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white"
+                android:drawableRight="@mipmap/more_icon"
+                android:padding="15dp"
+                android:text="@string/setting_message_notification_str"
+                android:textColor="@color/color_black"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="10dp"
+                android:background="@color/split_line_color" />
+
+            <TextView
+                android:id="@+id/yijian_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white"
+                android:drawableRight="@mipmap/more_icon"
+                android:padding="15dp"
+                android:text="意见反馈"
+                android:textColor="@color/color_black"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"
+                android:background="@color/split_line_color" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/logout_lt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/split_line_color" />
+                <View
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/split_line_color" />
+
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_white"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawableLeft="@mipmap/logout_icon"
+                        android:drawablePadding="10dp"
+                        android:text="@string/setting_logout_str"
+                        android:textColor="@color/color_red"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/split_line_color" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:text="@string/app_name"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="@color/color_black"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

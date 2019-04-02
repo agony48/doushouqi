@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="14dp"
+    android:id="@+id/content_lt"
+    android:paddingBottom="14dp"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_gravity="center_horizontal"
+    android:layout_width="50dp"
+    android:layout_height="50dp">
+    <ImageView
+        android:id="@+id/home_navi_header_iv"
+        android:layout_width="45dp"
+        android:layout_height="45dp"/>
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="2dp"
+        android:text="暂停"
+        android:textSize="11sp"
+        android:textColor="@color/color_black"
+        android:background="@drawable/blue_kuang_bg"
+        />
+</RelativeLayout>
+    <TextView
+        android:id="@+id/home_navi_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/color_black"
+        android:textSize="14sp" />
+
+</LinearLayout>
